@@ -1,0 +1,116 @@
+html, body {
+  
+  height: 100%;
+  margin: 0;
+  padding: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background:linear-gradient(to right,#a96206, #8a6603);
+  overflow: hidden;
+  text-align: center;
+  
+}
+nav button.btn-menu {
+  background-color: #694f03;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+nav button.btn-menu a {
+  color: white;
+  text-decoration: none;
+}
+nav h1 {
+  display: block;
+  color: rgb(191, 182, 182);
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('fondo_pagina.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contenedor {
+  max-width: 500px;
+  margin: 40px auto;
+  background: rgb(191, 182, 182);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+
+h1 {
+  color: #694f03;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.contacto button {
+  width: 80%;
+  padding: 10px;
+  background-color: #694f03;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.botones {
+  margin-top: 15px;
+}
+
+#botones a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+#botones .whatsapp {
+  background-color: #25d366;
+  margin-top: 20px;
+}
+
+#botones .instagram {
+  background-color: #e5179d;
+  margin-top: 20px;
+
+}
+#botones .facebook {
+  background-color: #235bd3;
+  margin-top: 20px;
+
+}
+
+/* Responsive simple */
+@media (max-width: 480px) {
+  .contenedor {
+    margin: 20px;
+  }
+}
